@@ -1,0 +1,22 @@
+/* color 
+
+ #00B5FF Blue
+ #009393 Teal
+ #FD7400 Orange
+ #C0392B Red
+ #611427 dark red
+ #FFB03B yellow
+ #2ECC71 Green
+
+ */
+.pin-contact .label,.thumbnail-icon-about i:hover,.button-portfolio a,.tp-bullets.simplebullets .bullet.selected,.counter-box i.icon-featured,.planContainer .title,.planContainer:hover .button, #plans .team .button,#plans .team .title, .pagination>li>a.active:hover, .pagination>li>a.active, .pagination>li>a:hover, .thumbnail-portfolio figcaption, .box-services:hover .thumbnail-services, .button-q, .owl-controls .owl-page.active span,.single-blog .icon-type, .bg-color, .navbar-toggle .icon-bar, .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus,.form-contact input[type=submit] {
+    background-color: #FD7400 !important;
+}
+
+a, .our-team-section .team-member h3, .our-team-section .team-member:hover .member-cover .member-info h3, .counter-box:hover i.icon-featured, .roles div, .nav > li > a:hover, .nav > li > a:focus, .txt-heading, .hover-font-color:hover, .box-services:hover h3, .thumbnail-services, .thumbnail-portfolio .like span, .top-navigation-inner .menu-top li a:hover,.font-color {
+    color: #FD7400 !important;
+}
+
+.thumbnail-icon-about i, .button-portfolio a:hover, .footer .social-media-icon, .counter-box:hover i.icon-featured, .featured-box .box-content, .pagination>li>a.active:hover, .pagination>li>a.active, .pagination>li>a:hover, .heading:after, .around-white .heading:after, .box-services:hover .thumbnail-services, .thumbnail-services, .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus, .button-portfolio a:hover {
+    border-color: #FD7400 !important;
+}
