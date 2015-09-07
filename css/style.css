@@ -236,7 +236,7 @@ margin-top: 4px;
     }
 
 .nav > li > a:hover, .nav > li > a:focus {
-    background: none
+    //background: none
     }
 
 .navbar-header {
@@ -254,7 +254,7 @@ margin-top: 4px;
     left: 0;
     right: 0;
     -webkit-transform-style: preserve-3d;
-    background: none;
+    //background: none;
     }
 
 .top-navigation-inner {
@@ -285,16 +285,18 @@ margin-top: 4px;
 
 .hero-inner {
   background-image: url("../images/overlay-pattern.png");
-    padding: 8px;
+    padding: 18px;
     font-weight: bold;
+    border-top: 4px solid #BAD527;
+    border-bottom: 4px solid #BAD527;
   }
 
 .hero .hero-holder {
     display: inline-block;
     left: 75%;
-//    width: 100%;
+    width: 400px;
     position: absolute;
-    top: 40%;
+    top: 60%;
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
@@ -325,7 +327,7 @@ margin-top: 4px;
     }
 
 .hero-description {
-    color: #fff;
+    color: #BAD527;
     display: block;
     font-size: 2em;
     letter-spacing: 1px;
@@ -373,6 +375,16 @@ margin-top: 4px;
     }
 
 /* ABOUT */
+#about .container {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: url("../images/background/background.png") no-repeat scroll center center/cover rgba(0, 0, 0, 0);
+background-size: 100% auto;
+    //height: 100%;
+    width: 100%;
+    z-index: 0 !important
+}
+
 .slide-about {
     position: relative
     }
