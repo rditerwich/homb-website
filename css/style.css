@@ -298,7 +298,8 @@ margin-top: 40px;
     }
 
 .hero-inner {
-    background-image: url("../images/overlay-pattern.png");
+    //background-image: url("../images/overlay-pattern.png");
+    background-color: #BAD527; //#9CB21A;
     padding: 18px;
     font-weight: bold;
     border-top: 4px solid #BAD527;
@@ -307,10 +308,10 @@ margin-top: 40px;
 
 .hero .hero-holder {
     display: inline-block;
-    left: 75%;
-    width: 400px;
+    left: 80%;
+    width: 350px;
     position: absolute;
-    top: 60%;
+    top: 40%;
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
@@ -333,7 +334,7 @@ margin-top: 40px;
 
 .hero-title {
     color: #fff;
-    font-size: 3em;
+    font-size: 2em;
     padding-top: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -341,7 +342,8 @@ margin-top: 40px;
     }
 
 .hero-description {
-    color: #BAD527;
+    //color: #BAD527;
+    color: black;
     display: block;
     font-size: 2em;
     letter-spacing: 1px;
@@ -379,6 +381,10 @@ margin-top: 40px;
     outline: 0
     }
 
+.hero-title-holder .inverted div {
+color:black !important;
+}
+
 .hero-poster-image {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -392,12 +398,14 @@ margin-top: 40px;
 #about .container {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background: url("../images/background/background.png") no-repeat scroll center center/cover rgba(0, 0, 0, 0);
+    background: url("../images/background/background.png") no-repeat scroll top center/cover rgba(0, 0, 0, 0);
 background-size: 100% auto;
 background-color: #9CB21A;
     height: 100%;
     width: 100%;
     z-index: 0 !important
+}
+#about .container2 {
 }
 
 #about h2 {
@@ -1405,7 +1413,12 @@ a.featured-box .box-content {
     -webkit-box-shadow: 2px 3px 7px -2px rgba(0, 0, 0, 0.67);
     box-shadow: 2px 3px 7px -2px rgba(0, 0, 0, 0.67)
     }
-
+.clients h2 {
+color: white;
+}
+.clients h3 {
+color: white;
+}
 /* CONTACT */
 #contact {
     width: 100%;
@@ -1607,7 +1620,7 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
 
 .parallax-banner-1 {
 //    background: url("../images/homb-banner.png") repeat fixed center center;
-    background: url("../images/foto1.jpg") no-repeat scroll center center/cover rgba(0, 0, 0, 0);
+    background: url("../images/IMG_6155_clipped.png") no-repeat scroll center bottom/cover rgba(0, 0, 0, 0);
     /*background-attachment: fixed;*/
     }
 
